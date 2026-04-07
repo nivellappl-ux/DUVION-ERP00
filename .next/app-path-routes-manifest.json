@@ -1,0 +1,20 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/alertas/route": "/api/alertas",
+  "/dashboard/aprovacoes/page": "/dashboard/aprovacoes",
+  "/dashboard/configuracoes/page": "/dashboard/configuracoes",
+  "/dashboard/conta-bancaria/page": "/dashboard/conta-bancaria",
+  "/dashboard/diario-caixa/page": "/dashboard/diario-caixa",
+  "/dashboard/duvion-credit/page": "/dashboard/duvion-credit",
+  "/dashboard/estoque/page": "/dashboard/estoque",
+  "/dashboard/faturacao/page": "/dashboard/faturacao",
+  "/dashboard/financeiro/page": "/dashboard/financeiro",
+  "/dashboard/fiscalidade/page": "/dashboard/fiscalidade",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/plafond/page": "/dashboard/plafond",
+  "/dashboard/rh/page": "/dashboard/rh",
+  "/dashboard/tesouraria/page": "/dashboard/tesouraria",
+  "/page": "/",
+  "/verificar/[codigo]/page": "/verificar/[codigo]"
+}

@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/verificar/[codigo]",
+      "regex": "^/verificar/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcodigo": "nxtPcodigo"
+      },
+      "namedRegex": "^/verificar/(?<nxtPcodigo>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/alertas",
+      "regex": "^/api/alertas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/alertas(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/aprovacoes",
+      "regex": "^/dashboard/aprovacoes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/aprovacoes(?:/)?$"
+    },
+    {
+      "page": "/dashboard/configuracoes",
+      "regex": "^/dashboard/configuracoes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/configuracoes(?:/)?$"
+    },
+    {
+      "page": "/dashboard/conta-bancaria",
+      "regex": "^/dashboard/conta\\-bancaria(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/conta\\-bancaria(?:/)?$"
+    },
+    {
+      "page": "/dashboard/diario-caixa",
+      "regex": "^/dashboard/diario\\-caixa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/diario\\-caixa(?:/)?$"
+    },
+    {
+      "page": "/dashboard/duvion-credit",
+      "regex": "^/dashboard/duvion\\-credit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/duvion\\-credit(?:/)?$"
+    },
+    {
+      "page": "/dashboard/estoque",
+      "regex": "^/dashboard/estoque(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/estoque(?:/)?$"
+    },
+    {
+      "page": "/dashboard/faturacao",
+      "regex": "^/dashboard/faturacao(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/faturacao(?:/)?$"
+    },
+    {
+      "page": "/dashboard/financeiro",
+      "regex": "^/dashboard/financeiro(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/financeiro(?:/)?$"
+    },
+    {
+      "page": "/dashboard/fiscalidade",
+      "regex": "^/dashboard/fiscalidade(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/fiscalidade(?:/)?$"
+    },
+    {
+      "page": "/dashboard/plafond",
+      "regex": "^/dashboard/plafond(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/plafond(?:/)?$"
+    },
+    {
+      "page": "/dashboard/rh",
+      "regex": "^/dashboard/rh(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/rh(?:/)?$"
+    },
+    {
+      "page": "/dashboard/tesouraria",
+      "regex": "^/dashboard/tesouraria(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/tesouraria(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dashboard/layout,_N_T_/dashboard/duvion-credit/layout,_N_T_/dashboard/duvion-credit/page,_N_T_/dashboard/duvion-credit"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/dashboard/duvion-credit/__PAGE__",
+    "/dashboard/duvion-credit",
+    "/dashboard",
+    "/_index",
+    "/_head"
+  ]
+}
